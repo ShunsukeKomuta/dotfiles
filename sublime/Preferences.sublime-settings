@@ -29,10 +29,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true,
-	"vintage_use_clipboard": true,
-	"vintageous_ctrl_keys": true,
-	"vintageous_use_ctrl_keys": true,
 	"word_wrap": "false"
 }

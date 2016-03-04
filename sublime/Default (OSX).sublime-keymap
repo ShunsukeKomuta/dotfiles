@@ -12,6 +12,9 @@
     // Multiple Cursor
     { "keys": ["super+k"], "command": "find_under_expand_skip" },
 
+    // Vi Mapping
+    { "keys": ["ctrl+]"], "command": "goto_definition" },
+
     //----------------Packages---------------//
     // Origami
     { "keys": ["ctrl+x", "2"], "command": "create_pane", "args": {"direction": "right", "give_focus": true}},
