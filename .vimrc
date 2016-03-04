@@ -109,12 +109,6 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 "Add simple highlight removal.
 nmap <Leader><space> :nohlsearch<cr>
 
-"Make NERDTree easier to toggle.
-nmap <D-1> :NERDTreeToggle<cr>
-
-" nmap <C-R> :CtrlPBufTag<cr>
-nmap <D-e> :CtrlPMRUFiles<cr>
-
 
 
 
@@ -125,7 +119,7 @@ nmap <D-e> :CtrlPMRUFiles<cr>
 " let g:ctrlp_custom_ignore = 'node_modules\DS_Store\|git'
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
-nmap <c-p> :CtrlP<cr>
+nmap <C-p> :CtrlP<cr>
 nmap <D-r> :CtrlPBufTag<cr>
 nmap <D-e> :CtrlPMRUFiles<cr>
 nmap <D-t> <Plug>PeepOpen
@@ -149,13 +143,6 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 "/ Neocomplete
 "/
 so ~/.vim/neocomplete.vim
-
-"/
-"/ Increment search
-"/
-map /  <Plug>(incsearch-forward)
-map ?  <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
 
 "/
 "/ Multiple cursors
