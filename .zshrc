@@ -106,9 +106,5 @@ screen)
     ;;
 esac
 
-# Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-material.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-
 ## load user .zshrc configuration file
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
