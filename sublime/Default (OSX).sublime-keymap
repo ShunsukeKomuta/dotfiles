@@ -6,33 +6,14 @@
     { "keys": ["super+enter"], "command": "toggle_full_screen" },
     { "keys": ["super+1"], "command": "toggle_side_bar" },
 
-    // The Two Most Important Shortcuts
-    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
-
-    // Multiple Cursor
-    { "keys": ["super+k"], "command": "find_under_expand_skip" },
-
-    // Vi Mapping
-    { "keys": ["ctrl+]"], "command": "goto_definition" },
-
     //----------------Packages---------------//
     // Origami
     { "keys": ["ctrl+x", "2"], "command": "create_pane", "args": {"direction": "right", "give_focus": true}},
     { "keys": ["ctrl+x", "3"], "command": "create_pane", "args": {"direction": "down", "give_focus": true}},
-    { "keys": ["ctrl+x", "k"], "command": "destroy_pane", "args": {"direction": "self"} },
+    { "keys": ["ctrl+x", "0"], "command": "destroy_pane", "args": {"direction": "self"} },
 
     // SublimePHPCompanion
     { "keys": ["f9"], "command": "expand_fqcn" },
     { "keys": ["f10"], "command": "find_use" },
     { "keys": ["f7"], "command": "insert_php_constructor_property" },
-
-    // AdvancedNewFile ["ctrl+x", "ctrl+f"]
-    { "keys": ["super+o"], "command": "advanced_new_file_new"},
-
-    // Emmet
-    { "keys": ["ctrl+t"],
-        "args": {"action": "expand_abbreviation" },
-        "command": "run_emmet_action",
-        "context": [ { "key": "emmet_action_enabled.expand_abbreviation" } ]
-    },
 ]
