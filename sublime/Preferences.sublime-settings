@@ -18,12 +18,10 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_numbers": true,
 	"line_padding_bottom": 5,
 	"line_padding_top": 5,
 	"margin": 0,
 	"overlay_scroll_bars": "enabled",
-	"scroll_past_end": true,
 	"show_panel_on_build": false,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
