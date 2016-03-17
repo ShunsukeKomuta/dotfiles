@@ -6,7 +6,6 @@ syntax enable
 set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
 let mapleader = ','                                 "The default is \, but a comma is much better.
 let g:mapleader = ","
-set nonumber								"Let's activate line numbers.
 set noerrorbells visualbell t_vb=               			"No damn bells!
 set autowriteall                                                        "Automatically write the file when switching buffers.
 set complete=.,w,b,u
@@ -107,6 +106,7 @@ nmap <Leader><space> :nohlsearch<cr>
 " let g:ctrlp_custom_ignore = 'node_modules\DS_Store\|git'
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:10'
 
+nmap <D-p> :CtrlP<cr>
 nmap <C-p> :CtrlP<cr>
 nmap <D-r> :CtrlPBufTag<cr>
 nmap <D-e> :CtrlPMRUFiles<cr>
