@@ -20,8 +20,6 @@ set softtabstop=4               " when hitting <BS>, pretend like a tab is remov
 set shiftwidth=4                " number of spaces to use for autoindenting
 set autoindent                  " always set autoindenting on
 set copyindent                  " copy the previous indentation on autoindenting
-set visualbell           " don't beep
-set noerrorbells         " don't beep
 set autowrite  "Save on buffer switch
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
@@ -33,10 +31,6 @@ nnoremap k gk
 
 "Show (partial) command in the status line
 set showcmd
-
-" Quickly go forward or backward to buffer
-nmap :bp :BufSurfBack<cr>
-nmap :bn :BufSurfForward<cr>
 
 " Powerline (Fancy thingy at bottom stuff)
 let g:Powerline_symbols = 'fancy'
@@ -93,12 +87,6 @@ set smartcase                               " ignore case if search pattern is a
 set splitbelow                              "Make splits default to below...
 set splitright                              "And to the right. This feels more natural.
 
-"We'll set simpler mappings to switch between splits.
-nmap <C-J> <C-W><C-J>
-nmap <C-K> <C-W><C-K>
-nmap <C-H> <C-W><C-H>
-nmap <C-L> <C-W><C-L>
-
 
 
 
@@ -117,7 +105,7 @@ nmap <Leader><space> :nohlsearch<cr>
 "/ CtrlP
 "/
 " let g:ctrlp_custom_ignore = 'node_modules\DS_Store\|git'
-let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:10'
 
 nmap <C-p> :CtrlP<cr>
 nmap <D-r> :CtrlPBufTag<cr>

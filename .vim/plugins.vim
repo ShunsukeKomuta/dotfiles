@@ -9,14 +9,11 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-" Plugin 'rking/ag.vim'
 Plugin 'ton/vim-bufsurf'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'Shougo/neocomplete.vim'
-" Plugin 'tpope/vim-surround'
-" Plugin 'ervandew/supertab'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
