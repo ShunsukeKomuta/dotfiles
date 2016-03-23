@@ -54,7 +54,7 @@ autocmd QuickFixCmdPost *grep* cwindow
 "-------------Visuals--------------"
 colorscheme hybrid_material
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
-set guifont=Fira\ Code:h16                       "Set the default font family and size.
+set guifont=Fira\ Code:h14                       "Set the default font family and size.
 " set macligatures							"We want pretty symbols, when available.
 set guioptions-=e
 set linespace=13                                "Macvim-specific line-height.
