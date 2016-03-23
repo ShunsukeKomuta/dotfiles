@@ -1,0 +1,37 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        alpha: 1
+        blue: 57
+        green: 63
+        red: 25
+    fonts: {}
+    treeView: {}
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    themes: [
+      "one-dark-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    invisibles: {}
+    lineHeight: 1.9
+    softTabs: false
+  "exception-reporting":
+    userId: "cd0e2abf-d07c-890a-d7a7-7975699a9d96"
+  "japanese-wrap":
+    characterWidth: {}
+  "linter-ruby": {}
+  "markdown-preview":
+    breakOnSingleNewline: true
+  "one-dark-ui": {}
+  "one-light-ui": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
