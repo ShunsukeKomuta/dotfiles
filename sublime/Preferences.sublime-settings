@@ -22,10 +22,10 @@
 	"line_padding_top": 4,
 	"margin": 0,
 	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": true,
 	"show_panel_on_build": false,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": true,
 	"word_wrap": "false"
 }

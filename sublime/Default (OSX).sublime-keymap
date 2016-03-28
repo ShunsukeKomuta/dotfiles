@@ -3,6 +3,7 @@
     // Edit todo list for project
     { "keys": ["escape", "t", "o", "d", "o"], "command": "open_file", "args": {"file": "/Users/komuta/Dropbox/komuta/markdown/index.org"} },
     { "keys": ["escape", "q", "i", "i", "t", "a"], "command": "open_file", "args": {"file": "/Users/komuta/Dropbox/komuta/qiita/index.org"} },
+    { "keys": ["escape", "m", "e", "m", "o"], "command": "open_file", "args": {"file": "/Users/komuta/Dropbox/komuta/memo/index.org"} },
 
     { "keys": ["super+enter"], "command": "toggle_full_screen" },
     { "keys": ["super+1"], "command": "toggle_side_bar" },
