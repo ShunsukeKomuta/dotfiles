@@ -54,10 +54,9 @@ autocmd QuickFixCmdPost *grep* cwindow
 "-------------Visuals--------------"
 colorscheme hybrid_material
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
-set guifont=Fira\ Code:h14                       "Set the default font family and size.
-" set macligatures							"We want pretty symbols, when available.
+set guifont=Fira\ Code:h13                       "Set the default font family and size.
 set guioptions-=e
-set linespace=13                                "Macvim-specific line-height.
+set linespace=11
 
 set guioptions-=l                                                       "Disable Gui scrollbars.
 set guioptions-=L
@@ -89,16 +88,6 @@ set splitright                              "And to the right. This feels more n
 
 
 
-"-------------Mappings--------------"
-"Make it easy to edit the Vimrc file.
-nmap <Leader>ev :tabedit $MYVIMRC<cr>
-
-"Add simple highlight removal.
-nmap <Leader><space> :nohlsearch<cr>
-
-
-
-
 "-------------Plugins--------------"
 "/
 "/ CtrlP
@@ -106,11 +95,9 @@ nmap <Leader><space> :nohlsearch<cr>
 " let g:ctrlp_custom_ignore = 'node_modules\DS_Store\|git'
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:10'
 
-nmap <D-p> :CtrlP<cr>
 nmap <C-p> :CtrlP<cr>
 nmap <D-r> :CtrlPBufTag<cr>
 nmap <D-e> :CtrlPMRUFiles<cr>
-nmap <D-t> <Plug>PeepOpen
 
 "/
 "/ NERDTree
