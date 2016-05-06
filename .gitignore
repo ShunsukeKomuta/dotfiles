@@ -2,3 +2,4 @@
 .vim/.netrwhist
 .atom/packages
 .atom/.apm
+.emacs.d/url/cache

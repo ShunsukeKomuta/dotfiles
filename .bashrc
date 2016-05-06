@@ -43,6 +43,6 @@ alias vaprobash="curl -L http://bit.ly/vaprobash > Vagrantfile"
 alias ensime="sh ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Ensime/serverStart.sh"
 alias vim="mvim -v"
 alias vi="mvim -v"
-alias emacs="/usr/local/Cellar/emacs/24.5/bin/emacs"
+alias emacs="/usr/local/Cellar/emacs/24.5/bin/emacs -nw"
 alias openg="open -a \"/Applications/Google Chrome.app\""
 
