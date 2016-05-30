@@ -3,4 +3,5 @@
 (setq-default tab-width 4 indent-tabs-mode nil)
 
 (show-paren-mode t)
-;(global-set-key "\C-h" 'delete-backward-char)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(load-theme 'material t)
