@@ -1,6 +1,6 @@
 [
     //----------------Mappingss---------------//
-    { "keys": ["super+1"], "command": "toggle_side_bar" },
+    { "keys": ["super+\\"], "command": "toggle_side_bar" },
 
     //----------------Packages---------------//
     // Origami
