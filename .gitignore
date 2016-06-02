@@ -2,4 +2,9 @@
 .vim/.netrwhist
 .atom/packages
 .atom/.apm
-.emacs.d/url/cache
+.emacs.d/.cask/
+.emacs.d/Cask
+.emacs.d/auto-save-list/
+.emacs.d/elisp/
+.emacs.d/init.elc
+.emacs.d/recentf
