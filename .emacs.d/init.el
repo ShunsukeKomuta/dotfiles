@@ -3,6 +3,8 @@
 (load-theme 'material t)
 
 (set-face-attribute 'default nil :family "Fira Code" :height 130)
+(set-fontset-font t 'japanese-jisx0208 (font-spec :family "Fira Code"))
+
 (setq-default line-spacing 11)
 (tool-bar-mode -1)
 (setq inhibit-startup-message t)
@@ -57,3 +59,9 @@
 (setq company-selection-wrap-around t)
 (global-company-mode)
 
+;;/
+;;/Scala
+;;/
+(add-to-list 'load-path "~/.emacs.d/elisp/scala-mode2")
+(require 'scala-mode2)
+; (require 'ensime)
