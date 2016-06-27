@@ -22,7 +22,7 @@ set copyindent                  " copy the previous indentation on autoindenting
 set autowrite  "Save on buffer switch
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+" let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " Down is really the next line
 nnoremap j gj
