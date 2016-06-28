@@ -44,5 +44,5 @@ alias ensime="sh ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Ensime
 alias vim="mvim -v"
 alias vi="mvim -v"
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
-alias openg="open -a \"/Applications/Google Chrome.app\""
+alias datef='date "+%Y-%m-%d %H:%M"'
 
