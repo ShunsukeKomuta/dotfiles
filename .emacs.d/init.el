@@ -31,20 +31,10 @@
 (add-to-list 'load-path "~/.emacs.d/elisp")
 
 ;;/
-;;/Smart Compile
+;;/Scala
 ;;/
-(require 'smart-compile)
-(global-set-key (kbd "C-c c") 'smart-compile)
-(global-set-key (kbd "C-c C-c") (kbd "C-c c C-m"))
-(setq compilation-window-height 15)
-
-;;/
-;;/Anything
-;;/
-(add-to-list 'load-path "~/.emacs.d/elisp/anything-config")
-(require 'anything-config)
-(define-key global-map (kbd "C-;") 'anything)
-(setq anything-input-idle-delay 0.1)
+(add-to-list 'load-path "~/.emacs.d/elisp/scala-mode2")
+(require 'scala-mode2)
 
 ;;----------------Package Install------------;;
 (require 'cask "/usr/local/opt/cask/cask.el")
@@ -53,15 +43,19 @@
 ;;/
 ;;/Company-Mode
 ;;/
-(require 'company)
 (setq company-idle-delay 0.2)
 (setq company-minimum-prefix-length 3)
 (setq company-selection-wrap-around t)
 (global-company-mode)
 
 ;;/
-;;/Scala
+;;/quickrun
 ;;/
-(add-to-list 'load-path "~/.emacs.d/elisp/scala-mode2")
-(require 'scala-mode2)
-; (require 'ensime)
+(global-set-key (kbd "C-c c") 'quickrun)
+
+;;/
+;;/helm
+;;/
+(helm-mode 1)
+(define-key global-map (kbd "C-;") 'helm-mini)
+
