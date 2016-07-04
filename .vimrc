@@ -54,6 +54,7 @@ autocmd QuickFixCmdPost *grep* cwindow
 "-------------Visuals--------------"
 colorscheme hybrid_material
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
+set macligatures
 set guifont=Fira\ Code:h13                       "Set the default font family and size.
 set guioptions-=e
 set linespace=11
@@ -105,7 +106,7 @@ nmap <D-e> :CtrlPMRUFiles<cr>
 let NERDTreeHijackNetrw = 0
 
 "Make NERDTree easier to toggle.
-nmap <D-1> :NERDTreeToggle<cr>
+nmap <D-\> :NERDTreeToggle<cr>
 
 "/
 "/ Greplace.vim
