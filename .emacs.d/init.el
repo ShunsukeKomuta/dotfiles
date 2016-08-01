@@ -40,8 +40,10 @@
 (require 'cask "/usr/local/opt/cask/cask.el")
 (cask-initialize)
 
+(package-initialize)
+
 ;;/
-;;/Company-Mode
+;;/company as Company-Mode
 ;;/
 (setq company-idle-delay 0.2)
 (setq company-minimum-prefix-length 3)
