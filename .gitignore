@@ -8,3 +8,5 @@
 .emacs.d/elisp/
 .emacs.d/init.elc
 .emacs.d/recentf
+.emacs.d/ensime
+.emacs.d/elpa
