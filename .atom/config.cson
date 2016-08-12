@@ -19,7 +19,7 @@
   editor:
     fontFamily: "Fira Code"
     invisibles: {}
-    lineHeight: 1.9
+    lineHeight: 1.4
     softTabs: false
   "exception-reporting":
     userId: "cd0e2abf-d07c-890a-d7a7-7975699a9d96"
