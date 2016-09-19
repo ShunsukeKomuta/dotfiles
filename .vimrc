@@ -9,6 +9,7 @@ let g:mapleader = ","
 set noerrorbells visualbell t_vb=               			"No damn bells!
 set autowriteall                                                        "Automatically write the file when switching buffers.
 set complete=.,w,b,u
+set backupskip=/tmp/*,/private/tmp/*
 
 set nowrap                      " don't wrap lines
 set tabstop=4                   " a tab is four spaces
