@@ -56,9 +56,9 @@ autocmd QuickFixCmdPost *grep* cwindow
 colorscheme hybrid_material
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
 set macligatures
-set guifont=Fira\ Code:h13                       "Set the default font family and size.
+set guifont=Roboto\ Mono:h13                       "Set the default font family and size.
+set linespace=8
 set guioptions-=e
-set linespace=11
 
 set guioptions-=l                                                       "Disable Gui scrollbars.
 set guioptions-=L
