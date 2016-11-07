@@ -43,3 +43,5 @@ alias vaprobash="curl -L http://bit.ly/vaprobash > Vagrantfile"
 alias vim="mvim -v"
 alias vi="mvim -v"
 
+#-------------evals-------------#
+eval $(docker-machine env default)
