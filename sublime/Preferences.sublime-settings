@@ -12,8 +12,6 @@
 	"ignored_packages":
 	[
 	],
-	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true,
 	"indent_guide_options":
 	[
 		"draw_normal",
@@ -28,5 +26,7 @@
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true,
 	"word_wrap": "false"
 }
