@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Facebook (SL).tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Facebook.tmTheme",
 	"disable_tab_abbreviations": true,
 	"font_face": "Roboto Mono",
 	"font_options":
@@ -23,7 +23,7 @@
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
 	"show_panel_on_build": false,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Material Facebook.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
