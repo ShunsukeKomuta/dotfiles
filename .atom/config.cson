@@ -12,12 +12,13 @@
     disabledPackages: [
       "wrap-guide"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "atom-material-syntax"
     ]
   editor:
-    fontFamily: "Fira Code"
+    fontFamily: "Roboto Mono"
     invisibles: {}
     lineHeight: 1.4
     softTabs: false
@@ -27,7 +28,7 @@
     characterWidth: {}
   "linter-ruby": {}
   "markdown-preview":
-    breakOnSingleNewline: true
+    breakOnSingleNewline: false
   "one-dark-ui": {}
   "one-light-ui": {}
   "tree-view": {}
