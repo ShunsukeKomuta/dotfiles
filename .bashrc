@@ -1,3 +1,5 @@
+stty stop undef
+
 #-------------Visuals--------------#
 # Base16 Shell
 BASE16_SHELL=$HOME/.config/base16-shell/scripts/base16-3024.sh
