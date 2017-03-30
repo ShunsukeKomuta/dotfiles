@@ -36,9 +36,6 @@ export HISTIGNORE=?:??:???:exit
 
 #-------------Aliases-------------#
 # alias where="command -v"
-# alias j="jobs -l"
-# alias du="du -h"
-# alias df="df -h"
 # alias su="su -l"
 alias ftxg="find . -type f 2> /dev/null | xargs grep -n --color"
 alias vaprobash="curl -L http://bit.ly/vaprobash > Vagrantfile"
