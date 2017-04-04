@@ -23,7 +23,6 @@ set copyindent                  " copy the previous indentation on autoindenting
 set autowrite  "Save on buffer switch
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-" let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " Down is really the next line
 nnoremap j gj
@@ -56,7 +55,7 @@ autocmd QuickFixCmdPost *grep* cwindow
 colorscheme hybrid_material
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
 set macligatures
-set guifont=Roboto\ Mono:h13                       "Set the default font family and size.
+set guifont=Roboto\ Mono                       "Set the default font family and size.
 set linespace=8
 set guioptions-=e
 
@@ -76,7 +75,6 @@ hi vertsplit guifg=bg guibg=bg
 
 
 "-------------Search--------------"
-set hlsearch                                "Highlight all matched terms.
 set incsearch                               "Incrementally highlight, as we type.
 
 
