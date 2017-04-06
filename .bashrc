@@ -37,10 +37,7 @@ export HISTIGNORE=?:??:???:exit
 #-------------Aliases-------------#
 # alias where="command -v"
 # alias su="su -l"
-alias ftxg="find . -type f 2> /dev/null | xargs grep -n --color"
+alias ftfxg="find . -type f 2> /dev/null | xargs grep -n --color"
 alias vaprobash="curl -L http://bit.ly/vaprobash > Vagrantfile"
 alias vim="mvim -v"
 alias vi="mvim -v"
-
-#-------------evals-------------#
-eval $(docker-machine env default)
