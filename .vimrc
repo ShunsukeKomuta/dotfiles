@@ -20,6 +20,7 @@ set softtabstop=4               " when hitting <BS>, pretend like a tab is remov
 set shiftwidth=4                " number of spaces to use for autoindenting
 set autoindent                  " always set autoindenting on
 set copyindent                  " copy the previous indentation on autoindenting
+set number                      " always show line numbers
 set autowrite  "Save on buffer switch
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
