@@ -67,15 +67,12 @@ set guioptions-=R
 "-------------Search--------------"
 set incsearch                               "Incrementally highlight, as we type.
 
-
 highlight Search cterm=underline
 set ignorecase                       	    " ignore case when searching
 set smartcase                               " ignore case if search pattern is all lowercase,
 "-------------Split Management--------------"
 set splitbelow                              "Make splits default to below...
 set splitright                              "And to the right. This feels more natural.
-
-
 
 
 "-------------Plugins--------------"
@@ -112,7 +109,6 @@ so ~/.vim/neocomplete.vim
 "/
 "/ Multiple cursors
 "/
-"
 function! Multiple_cursors_before()
     exe 'NeoCompleteLock'
     echo 'Disabled autocomplete'
@@ -128,5 +124,6 @@ endfunction
 
 augroup autosourcing
     autocmd!
-    autocmd BufWritePost .vimrc source %
+    autocmd BufWritePost .vimrc source % | if has('gui_running') | source .gvimrc | endif
+    autocmd BufWritePost .gvimrc source % | source .vimrc
 augroup END
