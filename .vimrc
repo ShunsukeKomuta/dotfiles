@@ -53,26 +53,15 @@ autocmd QuickFixCmdPost *grep* cwindow
 
 
 "-------------Visuals--------------"
-colorscheme hybrid_material
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
 set macligatures
 set guifont=Roboto\ Mono                       "Set the default font family and size.
-set linespace=8
 set guioptions-=e
 
 set guioptions-=l                                                       "Disable Gui scrollbars.
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
-
-"We'll fake a custom left padding for each window.
-hi LineNr guibg=bg
-set foldcolumn=2
-hi foldcolumn guibg=bg
-
-"Get rid of ugly split borders.
-hi vertsplit guifg=bg guibg=bg
-
 
 
 "-------------Search--------------"
