@@ -1,11 +1,8 @@
 ;;----------------Visuals------------------;;
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'material t)
+(set-face-attribute 'default nil :family "Roboto Mono")
+(set-fontset-font t 'japanese-jisx0208 (font-spec :family "Roboto Mono"))
 
-(set-face-attribute 'default nil :family "Fira Code" :height 130)
-(set-fontset-font t 'japanese-jisx0208 (font-spec :family "Fira Code"))
-
-(setq-default line-spacing 11)
+(setq-default line-spacing 3)
 (tool-bar-mode -1)
 (setq inhibit-startup-message t)
 
