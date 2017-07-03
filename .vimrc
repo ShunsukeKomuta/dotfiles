@@ -121,6 +121,11 @@ function! Multiple_cursors_after()
     echo 'Enabled autocomplete'
 endfunction
 
+"/
+"/ Ag
+"/
+set runtimepath^=~/.vim/bundle/ag
+
 "-------------Auto-Commands--------------"
 "Automatically source the Vimrc file on save.
 
