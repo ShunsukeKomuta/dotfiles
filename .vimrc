@@ -84,6 +84,7 @@ let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:10'
 
 nmap <C-p> :CtrlP<cr>
 nmap <D-r> :CtrlPBufTag<cr>
+nmap <C-t> :CtrlPMRUFiles<cr>
 nmap <D-e> :CtrlPMRUFiles<cr>
 
 "/
@@ -93,6 +94,7 @@ let NERDTreeHijackNetrw = 0
 
 "Make NERDTree easier to toggle.
 nmap <D-\> :NERDTreeToggle<cr>
+nmap <C-\> :NERDTreeToggle<cr>
 
 "/
 "/ Greplace.vim
