@@ -1,3 +1,5 @@
+set macligatures
+
 colorscheme hybrid_material
 set linespace=8
 

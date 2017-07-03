@@ -54,7 +54,6 @@ autocmd QuickFixCmdPost *grep* cwindow
 
 "-------------Visuals--------------"
 set t_CO=256                                "Use 256 colors. This is useful for Terminal Vim.
-set macligatures
 set guifont=Roboto\ Mono                       "Set the default font family and size.
 set guioptions-=e
 
