@@ -9,6 +9,10 @@
 	],
 	"font_size": 13,
 	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_normal",
