@@ -108,19 +108,6 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 so ~/.vim/neocomplete.vim
 
 "/
-"/ Multiple cursors
-"/
-function! Multiple_cursors_before()
-    exe 'NeoCompleteLock'
-    echo 'Disabled autocomplete'
-endfunction
-
-function! Multiple_cursors_after()
-    exe 'NeoCompleteUnlock'
-    echo 'Enabled autocomplete'
-endfunction
-
-"/
 "/ Ag
 "/
 set runtimepath^=~/.vim/bundle/ag
