@@ -12,6 +12,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'Shougo/neocomplete.vim'
+Plugin 'osyo-manga/vim-over'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
