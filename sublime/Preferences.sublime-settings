@@ -23,8 +23,8 @@
 	"margin": 0,
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
-	"show_panel_on_build": false,
 	"show_line_endings": true,
+	"show_panel_on_build": false,
 	"theme": "Material Behave.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "false"
