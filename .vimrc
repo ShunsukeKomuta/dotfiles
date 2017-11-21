@@ -89,7 +89,6 @@ nmap <D-e> :CtrlPMRUFiles<cr>
 "/
 "/ NERDTree
 "/
-let NERDTreeHijackNetrw = 0
 
 "Make NERDTree easier to toggle.
 nmap <D-\> :NERDTreeToggle<cr>
