@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Materialize/schemes/Material Behave.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
 	"disable_tab_abbreviations": true,
 	"font_face": "Roboto Mono",
 	"font_options":
@@ -25,7 +25,7 @@
 	"scroll_past_end": true,
 	"show_line_endings": true,
 	"show_panel_on_build": false,
-	"theme": "Material Behave.sublime-theme",
+	"theme": "Material Spaceblack.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "false"
 }
