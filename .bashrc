@@ -31,3 +31,7 @@ alias ftfxg="find . -type f 2> /dev/null | xargs grep -n --color"
 alias vaprobash="curl -L http://bit.ly/vaprobash > Vagrantfile"
 alias vim="mvim -v"
 alias vi="mvim -v"
+alias subl='reattach-to-user-namespace subl'
+eval "$(rbenv init -)"
+eval "$(scalaenv init -)"
+alias sudo='sudo -E '
