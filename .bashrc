@@ -33,5 +33,6 @@ alias vim="mvim -v"
 alias vi="mvim -v"
 alias subl='reattach-to-user-namespace subl'
 eval "$(rbenv init -)"
-eval "$(scalaenv init -)"
 alias sudo='sudo -E '
+export PATH="${HOME}/.scalaenv/bin:${PATH}"
+eval "$(scalaenv init -)"
