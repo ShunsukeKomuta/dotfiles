@@ -1,9 +1,7 @@
 ;;----------------Visuals------------------;;
 (set-face-attribute 'default nil :family "Roboto Mono")
-(set-fontset-font t 'japanese-jisx0208 (font-spec :family "Roboto Mono"))
 
 (setq-default line-spacing 3)
-(tool-bar-mode -1)
 (setq inhibit-startup-message t)
 
 ;;----------------Settings-----------------;;
@@ -27,34 +25,18 @@
 ;;----------------Manual Install------------;;
 (add-to-list 'load-path "~/.emacs.d/elisp")
 
-;;/
-;;/Scala
-;;/
-(add-to-list 'load-path "~/.emacs.d/elisp/scala-mode2")
-(require 'scala-mode2)
+;;----------------Gauche------------------;;
+(modify-coding-system-alist 'process' "gosh" '(utf-8 . utf-8))
+(setq scheme-program-name "gosh -i")
+(autoload 'scheme-mode "cmuscheme" "Major mode for Scheme." t)
+(autoload 'run-scheme "cmuscheme" "Run an inferior Scheme process." t)
 
-;;----------------Package Install------------;;
-(require 'cask "/usr/local/opt/cask/cask.el")
-(cask-initialize)
+(defun scheme-other-window ()
+  "Run scheme on other window"
+  (interactive)
+  (switch-to-buffer-other-window
+   (get-buffer-create "*scheme*"))
+  (run-scheme scheme-program-name))
 
-(package-initialize)
-
-;;/
-;;/company as Company-Mode
-;;/
-(setq company-idle-delay 0.2)
-(setq company-minimum-prefix-length 3)
-(setq company-selection-wrap-around t)
-(global-company-mode)
-
-;;/
-;;/quickrun
-;;/
-(global-set-key (kbd "C-c c") 'quickrun)
-
-;;/
-;;/helm
-;;/
-(helm-mode 1)
-(define-key global-map (kbd "C-;") 'helm-mini)
-
+(define-key global-map
+  "\C-cs" 'scheme-other-window)
