@@ -1,18 +1,11 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack Oceanic.tmTheme",
-	"disable_tab_abbreviations": true,
 	"font_face": "Roboto Mono",
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 12,
-	"highlight_line": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"font_size": 14,
 	"indent_guide_options":
 	[
 		"draw_normal",
@@ -22,10 +15,12 @@
 	"line_padding_top": 4,
 	"margin": 0,
 	"overlay_scroll_bars": "enabled",
-	"scroll_past_end": true,
 	"show_line_endings": true,
 	"show_panel_on_build": false,
-	"theme": "Material Spaceblack.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "false"
+	"word_wrap": "false",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }
